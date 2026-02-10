@@ -1,0 +1,15 @@
+info:
+  name: get all entries
+  type: http
+  seq: 1
+
+http:
+  method: GET
+  url: /api/v1/all
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
